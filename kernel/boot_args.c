@@ -26,6 +26,7 @@ char **prepare_main_args(int *argc)
 	*argc = 0;
 	*argv_begin = NULL;
 
+	
 #ifdef CONFIG_DYNAMIC_BOOTARGS
 	if (!bootargs) {
 		return argv_begin;
